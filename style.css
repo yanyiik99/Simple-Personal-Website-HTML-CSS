@@ -1,0 +1,167 @@
+body {
+    padding-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(img/prism.png);
+}
+
+.container {
+    width: 1000px;
+    border: 1px solid rgb(255, 255, 255);
+    margin: auto;
+    background-color: #41b3a3;
+}
+
+.name h1 {
+    padding-left: 15px;
+    float: left;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 35px;
+}
+
+
+.name .logo {
+    width: 60px;
+    height: 60px;
+    float: right;
+    padding-right: 10px;
+    padding-top: 8px;
+}
+
+.navigasi {
+    height: 60px;
+    background-color:#ffffff;
+}
+
+.navigasi .list li{
+    display: inline-block;
+    font-size: 20px;
+    line-height: 60px;
+}
+
+.navigasi .list li a {
+    text-decoration: none;
+    color: red;
+}
+
+.navigasi .list {
+    text-align: right;
+    padding-right: 10px;
+    word-spacing: 30px;
+}
+
+
+.navigasi .list li:hover {
+    background-color:rgb(136, 123, 123);
+    height: 40px;
+    font-size: 23px;
+    padding: 10px;
+    line-height: 40px;
+}
+
+
+.hero {
+    height: 360px;
+    background-image: url(img/coding.png);
+    border-top: 4px solid rgb(0, 225, 255);
+    border-bottom: 4px solid rgb(0, 225, 255);
+}
+
+.judul h2 {
+    text-align: center;
+}
+
+.content .kiri {
+    width: 70px;
+    float: left;
+}
+
+.content .main {
+    width: 650px;
+    float: left;
+    margin-left: 60px;
+    text-align: justify;
+
+}
+
+.content .kanan {
+    width: 170px;
+    float: right;
+    padding-right: 10px;
+}
+
+.content .kanan h4 {
+    text-align: center;
+}
+
+.content .kanan img {
+    width:70px;
+    height:70px;
+    float: left;
+    padding-right: 6px;
+}
+
+.content .kanan p {
+    text-align: left;
+}
+
+.subhead {
+    padding-top: 20px;
+}
+
+.subhead .left {
+    width: 325px;
+    float: left;
+    padding-left: 10px;
+    text-align: center;
+}
+
+.subhead .center {
+    width: 325px;
+    float: left;
+    padding-left: 11px;
+    text-align: center;
+}
+
+.subhead .right {
+    width: 320px;
+    float: left;
+    text-align: center;
+}
+
+.subhead img {
+    width: 150px;
+    height: 100px;
+    box-shadow: 0px 10px 10px 0px black;
+}
+
+
+.footer {
+    height: 70px;
+    background-color: rgb(17, 17, 17);
+    text-align: center;
+    color: white;
+    line-height: 70px;
+}
+
+
+
+
+
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
